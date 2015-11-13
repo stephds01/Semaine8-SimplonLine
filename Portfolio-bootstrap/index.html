@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head >
+    <meta charset="UTF-8">
+    <title>Portfolio Bootstrap</title>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="container-fluid">
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <img src="images/image3.png" width="380" height="400" class="img-responsive" alt="Image Logo">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <h1>Mon nom</h1>
+                        <h2>Le poste que je recherche</h2>
+                    </div>
+            </header>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row box">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                   <div class="col-xs- col-sm-4 col-md-4 col-lg-4 ">
+                       <div class="containers">
+                            <h3>Parcours avant la formation Simplonline</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, perferendis, illo ab fugit commodi praesentium tempora et repellendus quas harum cum repellat ex alias distinctio hic odio quia mollitia voluptatem.</p>
+                        </div>
+                    </div>
+
+                   <div class="col-xs- col-sm-4 col-md-4 col-lg-4 ">
+                       <div class="containers">
+                            <h3>Mes ambitions</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, perferendis, illo ab fugit commodi praesentium tempora et repellendus quas harum cum repellat ex alias distinctio hic odio quia mollitia voluptatem.</p>
+                        </div>
+                    </div>
+                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 box3">
+                       <div class="containers">
+                           <ul>
+                                <h3>Expérience professionnelle</h3>
+                                <li>Expérience 1</li>
+                                <li>Expérience 2</li>
+                                <li>Expérience 3</li>
+                            </ul>
+                        </div>
+                    </div>
+               </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2 class="text-left ">Mon portfolio</h2>
+
+        <!-- Button Filter-->
+
+        <div class="container content">
+            <button class="filter active" data-filter=".cat1 .cat2 .cat3 .cat4">TOUS</button>
+            <button class="filter" data-filter=".cat1">Html/Css</button>
+            <button class="filter" data-filter=".cat2">Javascript</button>
+            <button class="filter" data-filter=".cat3">Bootstrap</button>
+            <button class="filter" data-filter=".cat4">Ruby</button>
+        </div>
+
+        <!-- items filtred-->
+
+        <div id="Container">
+            <div class="mix cat2" data-my-order="2">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/logo/5.jpg" class="image img-responsive" alt="Html5 & JS">
+                    <div id="label" class="label">
+                        <a class="text-title">Annuaire</a>
+                        <span class="text-category">Javascript</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat4" data-my-order="4">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/card/1.jpg" class="image img-responsive" alt="Ruby">
+                    <div class="label">
+                        <a class="text-title center">Mon premier exercice Ruby</a>
+                        <span class="text-category">Ruby</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat1" data-my-order="1">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/app/1.jpg" class="image img-responsive" alt="Html5 & Css3">
+                    <div class="label">
+                        <a class="text-title">Apprendre Html5 et CSS3</a>
+                        <span class="text-category">Html/Css</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat1" data-my-order="1">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/app/3.jpg" class="image img-responsive" alt="Js">
+                    <div class="label">
+                        <a class="text-title">Les explications de Julie</a>
+                        <span class="text-category">Html/css</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat2" data-my-order="2">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/logo/1.jpg" class="image img-responsive" alt="JS">
+                    <div class="label">
+                        <a class="text-title">Apprendre à coder en Javascript</a>
+                        <span class="text-category">Javascript</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat3" data-my-order="3">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/app/2.jpg" class="image img-responsive" alt="Bootstrap">
+                    <div class="label">
+                        <a class="text-title">1er projet Bootstrap</a>
+                        <span class="text-category">Bootstrap</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat4" data-my-order="4">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/card/2.jpg" class="image img-responsive" alt="Ruby">
+                    <div class="label">
+                        <a class="text-title">Création d'un projet Ruby</a>
+                        <span class="text-category">Ruby</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat3" data-my-order="3">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/icon/1.jpg" class="image img-responsive" alt="Bootstrap">
+                    <div class="label">
+                        <a class="text-title">1er projet avec bootstrap</a>
+                        <span class="text-category">Bootstrap</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat4" data-my-order="4">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/card/3.png" class="image img-responsive" alt="Ruby">
+                    <div class="label">
+                        <a class="text-title">Apprendre le framwork Ruby</a>
+                        <span class="text-category">Ruby</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat2" data-my-order="2">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/logo/3.jpg" class="image img-responsive" alt="Javascript">
+                    <div class="label">
+                        <a class="text-title">Créer des jeux avec Javascript</a>
+                        <span class="text-category">Javascript</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat3" data-my-order="3">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/icon/2.jpg" class="image img-responsive" alt="Bootstrap">
+                    <div class="label">
+                        <a class="text-title">Apprendre Bootstrap</a>
+                        <span class="text-category">Bootstrap</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+            </div>
+
+            <div class="mix cat2" data-my-order="2">
+                <div class="portfolio-wrapper">
+                    <img src="images/portfolios/logo/2.jpg" class="image img-responsive" alt="Javascript">
+                    <div class="label">
+                        <a class="text-title">Créer des jeux avec Javascript</a>
+                        <span class="text-category">Javascript</span>
+                    </div>
+                    <div class="label-bg"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+                <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2779.2075907379367!2d5.432881351275227!3d45.84714451572725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b4676b8b8ac3b%3A0x86999044522bb72f!2s24+Impasse+de+la+place%2C+01150+Villebois!5e0!3m2!1sfr!2sfr!4v1446628914484" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+                        <p>Mes coordonnées : 0600000000/</p>
+                        <p>simplon@simplon.co</p>
+                    </div>
+
+                </footer>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+<script type="text/javascript">
+
+    $('#Container').mixitup({
+        effects: ['fade','scale','rotateZ'],
+    });
+
+    //Scroll du label
+    var theLabel = $('#label');
+    theLabel.hover(function() {
+        $(this)
+                .animate({height: '50px', marginTop: '0px',  width: '100%' }, 1000, 'jswing')
+                .animate({height: '0px', marginBottom: '0px',  width: '100%' }, 1000, 'jswing')
+    });
+</script>
+</body>
+</html>
