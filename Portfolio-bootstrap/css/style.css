@@ -104,6 +104,43 @@ footer {
 }
 
 
+/*----------FORMULAIRE--------*/
+
+label{
+    width: 53px;
+    text-align: right;
+}
+form{
+    /*border: 1px red solid;*/
+}
+form input{
+    margin-left: 10px;
+    color:  #333;
+}
+.container-form{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+
+}
+textarea{
+    color:#333;
+}
+textarea .message{
+    margin-left: 40%;
+    color: #333;
+}
+
+fieldset{
+    padding: 10px;
+}
+legend{
+    color: white;
+}
+.soumettre{
+    margin-left: 158%;
+}
+
 
 /*=====================================*/
     /*EVENEMENT*/
